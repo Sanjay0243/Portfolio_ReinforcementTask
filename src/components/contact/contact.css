@@ -1,0 +1,144 @@
+#contact{
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;opacity: 0.9;
+
+h5{
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: orangered;
+    font-size: 22px;
+}
+.ptitile{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 80%;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    color: black;
+    font-size: 58px;
+    @media only screen and (max-width:460px){
+        font-size: 40px;
+       }
+}
+.contactContainer{
+    height: auto;
+    background-color:rgb(168, 168, 168);
+    width: 80%;
+    display: flex;
+
+    @media only screen and (max-width:460px){
+        flex-direction: column;
+    }
+
+.box1{
+    padding-top: 50px;
+    padding: 30px;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+
+
+p{
+    padding-left:10px;
+    margin-bottom: 60px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+
+  @media only screen and (max-width:460px){
+    padding-left:0px;
+    margin-bottom: 10px;
+  }
+}
+label{
+    color:rgb(41, 41, 41);
+}
+input{
+    color: white;
+    font-size: 18px;
+    width: 100%;
+background: none;
+border: 0px;
+border-bottom:  1px solid rgb(209, 209, 209);
+height: 30px;
+margin-bottom: 40px;
+
+&:focus{
+outline-width: 0;
+border-bottom:  1px solid white;
+    }
+}
+textarea{
+        height: 90px;
+        color: white;
+        font-size: 18px;
+        width: 100%;
+    background: none;
+    border: 0px;
+    border-bottom:  1px solid rgb(209, 209, 209);
+    
+    &:focus{
+        outline-width: 0;
+border-bottom:  1px solid white;
+    }
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid orangered;
+    background-color: orangered;
+    width: 80%;
+    padding: 15px 50px;
+    cursor: pointer;
+ margin: 30px 10%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+
+}
+}
+.box2{
+    padding-top: 50px;
+    background-color:rgb(138, 136, 136);
+    flex: 1;
+    padding-left: 25px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+
+      @media only screen and (max-width:460px){
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  @media only screen and (max-width:460px){
+    text-align: center;
+}
+.orangered{
+    margin-top: 50px;
+  color: orangered;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.orangeredBody{
+    color: rgb(41, 41, 41);
+    width: 80%;
+}
+}
+}
+}

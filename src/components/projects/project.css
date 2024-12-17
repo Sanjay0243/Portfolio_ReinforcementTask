@@ -1,0 +1,91 @@
+#projectsMain{
+    display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;opacity: 0.9;
+        height: 100%;
+
+    .colContainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        @media only screen and (max-width:460px){
+            flex-direction: column;
+    }
+        .col1{
+            flex: 1;
+            padding: 15px 10px;
+            display: flex;
+            flex-direction: column;
+            @media only screen and (max-width:460px){
+                padding-bottom: 0px;
+                border-bottom: 1px solid orangered;
+        }
+
+            .headingp1{
+                color: black;opacity: 0.9;
+                text-shadow: whitesmoke 1px 0 10px;opacity: 0.4;
+                font-size:60px;
+                font-weight: bold;
+                display: flex;
+                position: relative;
+
+                @media only screen and (max-width:460px){
+                    font-size: 49px;
+            }
+        }
+            h4{
+                display: flex;
+                font-size: 22px;
+                font-weight: bold;
+                position: absolute;
+                margin-top: 95px;
+                color: orangered;
+
+                @media only screen and (max-width:460px){
+                    margin-top: 70px;
+            }
+            }
+            .headingp2{
+                position: absolute;
+                margin-top: 120px;
+                color: white;
+                font-size:30px;
+                font-weight: bold;
+                @media only screen and (max-width:460px){
+                    margin-top: 95px;
+                    font-size:26px;
+            }
+            }
+        }
+        .col2{
+            display: flex;
+            flex: 2;
+            justify-content: center;
+            align-items: center;
+
+        .headingp3{
+            border-left: 1px solid orangered;
+            height: 70px;
+            color: white;
+            font-size:22px;
+            text-align: center;
+            padding:20px 30px ;
+
+            @media only screen and (max-width:460px){
+                padding:5px 10px;
+                font-size: 18px;
+        }
+        }
+    }
+      }
+.projects{
+display: flex;
+flex-direction: column;
+padding:0px 7%;
+
+}  
+  }
